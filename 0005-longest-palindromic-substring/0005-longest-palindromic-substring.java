@@ -23,7 +23,7 @@ class Solution {
         }
         
         // Even length
-        for(int i = 0; i < n-1; ++i){
+        for(int i = 0; i < n-1; i++){
             int l = i, r = i+1;
             while(l >= 0 && r < n){
                 if(s.charAt(l) == s.charAt(r)){
